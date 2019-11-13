@@ -1,9 +1,9 @@
-#include "./libraries/RFControl/RFControl.h"
+#include <RFControl.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <EEPROM.h>
 #ifndef RF_CONTROL_VARDUINO
-#include "libraries/RFControl/arduino_functions.h"
+#include "arduino_functions.h"
 #endif
 
 extern "C" {
